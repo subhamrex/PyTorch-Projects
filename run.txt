@@ -1,0 +1,4 @@
+conda env create -f pytorch_env.yml
+conda activate envpytorch
+conda deactivate
+in python-> torch.cuda.is_available()
